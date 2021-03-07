@@ -1,0 +1,44 @@
+JavaScript improves the user experience of the web page by converting it from a static page into an interactive one.
+                                    OR
+JavaScript adds behavior to web pages.
+______________________________________________________________
+          How Website Front-End Works (Client-Side)
+______________________________________________________________
+___________                                __________                                      ____________
+HTML/HTML5                                  CSS/CSS3                                        JAVASCRIPT
+___________                                __________                                      ____________
+1)HTML stands for Hyper Text    |1) CSS stands for Cascading Style Sheets      |1) JavaScript is a text-based programming language  
+Markup Language                 |                                              | used both on the client-side and server-side that 
+                                |2) CSS describes how HTML elements are to     | allows you to make web pages interactive.
+2) HTML is the standard         | be displayed on screen, paper, or in other   |
+markup language for creating    | media.                                       |2) JavaScript improves the user experience of the
+Web pages                       |                                              | web page by converting it from a static page into
+                                |3) With CSS, you can control the color,font   | an interactive one.
+3) HTML describes the structure | , the size of text, etc.                     |
+of a Web Page                   |                                              |
+_____________________________________________
+          Variable Naming Convention
+_____________________________________________
+1) The first character must be a letter or an underscore(_) or an dollar($). YOu can't use a number as the first character.
+2) The rest of the variable name can include any letter, any number, or the underscore. Can't use any other character,including spaces.
+3) Variable names are case sensitive.
+4) No limit to the length of the variable name.
+5) You can't use one of JavaScript's reserved words as a variable name.
+_______________________________________
+        Data Types in JavaScript
+_______________________________________
+1) undefined : typeof instance === "undefined"
+2) Boolean : typeof instance === "boolean"
+3) Number : typeof instance === "number"
+4) String : typeof instance === "string"
+5) BigInt : typeof instance === "bigint"
+6) Symbol : typeof instance === "symbol"
+
+Ex--
+    10+"20" => 1020
+    9-"5"   => 4
+    "Java" + "Script"   =>  JavaScript
+    
+    
+    
+    
