@@ -38,7 +38,138 @@ Ex--
     10+"20" => 1020
     9-"5"   => 4
     "Java" + "Script"   =>  JavaScript
-    
+    "Java" - "Script"   =>  NaN
+    true + true  =>  2
+    true + false =>  1
+    false - true =>  -1
+ __________________________________________________
+        Difference between null vs undefined
+ __________________________________________________
+ 
+  var iAmUseless = null;                            |   var iAmStandBy;
+  console.log(iAmUseless);          // null         |   console.log(iAmStandBy);           // undefined
+  console.log(typeof(iAmUseless));  // object       |   console.log(typeof(iAmStandBy));   // undefined
+ _______________________
+        What is NaN
+ _______________________
+  
+ - NaN is a property of the global object.
+ - In other words, it is a variable in global scope.
+ - The initial value of NaN is Not-A-Number.
+  
+  - "Java" - "Script"  =>  NaN
+  
+  var myPhoneNumber = 439894030;
+  var myName = "Java Script";
+  
+  console.log(isNaN(myPhoneNumber));       // false
+  console.log(isNaN(myName));              // true
+  
+  
+____________
+ Expression  :- Combination of operand and operator is known as expression.
+____________
+_____________________________________
+      Expressions and Operators
+_____________________________________
+1) Assignment operators
+2) Arithmetic operators
+3) Comparison operators
+4) Logical operators
+5) String operators
+6) Conditional(ternary) operator
+---------------------
+Assignment Operators 
+--------------------
+- An assignment operator assigns a value  to its left operand based on the value of its right operand.
+- The simple assignment operator is equal (=)
+
+var x = 5;
+var y = 5;
+console.log("is both the x and y are equal : " + x == y);           // false
+console.log("is both the x and y are equal : ${x == y}");           // is both the x and y are equal : true
+
+----------------------
+ Arithmetic operators
+----------------------
+- An Arithmetic operator takes numerical values (either literals or variables ) as their operands and returns a single numerical value.
+e.g.,
+     console.log(3+3);       // 6
+     console.log(10-5);      // 5
+     console.log(20/5);      // 4
+     console.log(5*6);       // 30
+     console.log(81%8);      // 14
+     
+     var num = 15;
+     console.log(num++);      // 15
+     console.log(num);        // 16
+     
+     var num = 15;
+     console.log(++num);      // 16
+     
+     var num = 15;
+     console.log(--num);      // 14        
+     
+     var num = 15;
+     console.log(num--);      // 15
+     console.log(num);        // 14
+     
+----------------------
+ Comparison Operators
+----------------------
+ - A comparison operator compares its operands and returns a logical value based on whether the comparison is true.
+ e.g.,
+      var a = 30;
+      var b = 10;
+      console.log( a == b);       // false
+      console.log( a != b);       // true
+      console.log( a > b);        // true
+      console.log( a < b);        // false
+      console.log( a >= b);       // true
+      console.log( a <= b);       // false
+      
+-------------------
+ Logical Operators
+-------------------
+- A logical operators are typically used with Boolean (logical) values;
+- returns true or false
+
+var a = 30;
+var b = -20;
+console.log(a > b && b < 0) ;          // true
+console.log(a > b && b > 0) ;          // false
+
+console.log(a > b || b < 0) ;          // true
+console.log(a > b || b > 0) ;          // true
+
+console.log((a > 0 ) || (b<0)) ;       // true
+console.log(!((a > 0 ) || (b<0))) ;       // false
+console.log(!true);                     // false
+console.log(!false);                   // true 
+
+------------------
+ String Operators
+------------------
+ - The concatenation operator (+) concatenates two string values together, returning another string that is the 
+   union of the two operand strings.
+   
+   console.log("Hello" + " world");     // Hello world
+   
+
+____________________________________________________
+          Difference between == and ===
+____________________________________________________
+
+var num1 = 5;
+var num2 = '5';
+
+console.log(typeof(num1));        // number
+console.log(typeof(num2));        // string
+console.log(num1 == num2);        // true      (== check only value)
+console.log(num1 === num2);       // false     (=== checks value and type also)
+
+
+
     
     
     
